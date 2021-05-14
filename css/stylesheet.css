@@ -1,0 +1,101 @@
+
+/* Using the font "Lato" from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&display=swap');
+
+body{
+    background-color: black;
+    color: lightgray;
+    font-family: Lato;
+    max-width: 1350px;
+    margin: auto;
+
+
+}
+/* For this website I wanted to make use of a gray color to seperate it from the black background color.
+   The text will be written in a lightgray color since white was a bit too bright in my opinion*/
+header { 
+    background-color:rgb(83, 83, 83) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 30px;
+
+}
+/* text color*/
+a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.logo-wrapper{
+    font-size: 30px;
+}
+
+ul.nav{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    
+}
+/* Only used in the about me section*/
+.content-wrapper{
+    display:flex;
+    margin-top: 20px;
+}
+
+.hero-div{
+    height: 500px;
+    padding-bottom: 20%;
+}
+/* The foto1_image class is for 1 particular picture in the about me section*/
+.foto1_image{
+    width: 60%;
+    height: 500px;
+    object-fit:scale-down;
+}
+
+/* foto 1,2,3 are general photo classes that I use in the project with padding-right to put space inbetween fotos and show them next to show them next to each other*/
+.foto1{
+    width: 500px;
+    height: 500px;
+    padding-right: 20%;
+    object-fit: cover;
+    object-fit:contain;
+}
+.foto2{
+    width: 40%;
+    height: 470px;
+    object-fit: cover;
+    object-fit:contain;
+}
+.foto3{
+    width: 40%;
+    padding-left: 10%;
+    object-fit: scale-down;
+}
+/*Defining the font for header 3*/
+h3{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: right;
+    position: relative;
+    top: 370px;
+    right: 20px;
+    margin: 0;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    margin: 0;
+}
+/* defining the coloring of the div blocks and adjusted paddings*/
+.Feature-div{
+    background-color: rgb(83, 83, 83);
+    color: lightgray;
+    padding: 10px 15px;
+}
+
+.feature-text{
+    padding: 0px 20px;
+    margin:0;
+}
